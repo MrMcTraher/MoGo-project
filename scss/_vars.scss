@@ -1,0 +1,74 @@
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+ */
+
+$black: #000;
+$white: #fff;
+
+%blogUpperTitle {
+  color: #2d3033;
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+%headerBlockTitle {
+  color: #2d3033;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+%headerBlockText {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+%quoteText {
+  color: #a9afb1;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+%quoteAuthor {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+%blogTitle {
+  color: #2d3033;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+%blogText {
+  color: #2d3033;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}

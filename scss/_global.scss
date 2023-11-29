@@ -1,0 +1,79 @@
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  color: $black;
+  line-height: 1.6;
+  font-family: "Raleway", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  &__header {
+  }
+
+  &__upper-title {
+    color: #2d3033;
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    padding: 18px 0;
+  }
+
+  &__title {
+    color: #2d3033;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 42px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    &::after {
+      content: "";
+      display: block;
+      width: 170px;
+      height: 4px;
+      background-color: #f38281;
+      margin: 30px auto;
+    }
+  }
+
+  &__text {
+    color: #000;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+}
+
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+ */
